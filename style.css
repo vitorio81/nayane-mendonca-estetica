@@ -58,7 +58,7 @@ h1 > p {
     justify-content: right;
     margin-left: 200px;
     margin-right: 150px;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 40vw;
     font-size: 0.8rem;
 }
@@ -125,10 +125,51 @@ h2 {
     border-radius: 10px;
     margin-right: 20px;
     margin-top: 40px;
+    text-align: center;
 
 }
 
 .specialty > img {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.171) , -2px -2px 5px rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+}
+
+.specialty > h3 {
+    margin-top: 10px;
+}
+
+.explanation {
+    margin: 10px;
+}
+
+#my-removal{
+    margin: auto;
+    width: 95vw;
+    height: 675px;
+    border: none;
+    margin-top: 200px;
+}
+
+#container-removal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 95vw;
+    height: 675px;
+}
+
+.remove {
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.158) , -2px -2px 5px rgba(255, 255, 255, 0.158);
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.remove >img {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.171) , -2px -2px 5px rgba(0, 0, 0, 0.171);
     border-radius: 10px;
 }
