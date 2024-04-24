@@ -65,13 +65,18 @@ h1 > p {
 
 #ul-options > li {
     display: inline-block;
-    padding: 10px;
-    margin-right: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#ul-options > li > a:hover{
+    opacity: 0.8;
 }
 
 #ul-options > li > a {
     text-decoration: none;
     color: var(--font-color);
+    opacity: 1;
 }
 
 #cotainer-me {
@@ -141,11 +146,40 @@ h2 {
     margin: 10px;
 }
 
+#agende {
+    background-color:rgb(194, 164, 116) ;
+    height: 80px;
+    border: 10px solid rgb(223, 203, 165);
+    width: 90vw;
+    border-radius: 10px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+#agende > h1 {
+    margin-top: 20px;
+}
+
+#agende > h1 > a {
+    text-decoration: none;
+    background-color: var(--body-colo);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--font-color);
+    margin-left: 20px;
+    opacity: 1;
+}
+
+#agende > h1 > a:hover {
+    opacity: 0.8;
+    padding: 12px;
+}
+
 #my-removal{
     margin: auto;
     width: 95vw;
     height: 675px;
-    margin-top: 200px;
+    margin-top: 90px;
 }
 
 #container-removal{
@@ -179,7 +213,7 @@ h2 {
 #contato{
     margin-top: 450px;
     width: 99vw;
-    height: 300px;
+    height: 350px;
     background-color: rgb(194, 164, 116);
     border-top: 10px solid rgb(223, 203, 165);
 }
@@ -199,6 +233,74 @@ h2 {
     margin: auto;
     margin-top: 40px;
     width: 300px;
-    height: 200px;
-    border: 1px solid;
+    height: 220px;
+    box-shadow: 1px 1px 5px var(--body-colo);
+}
+
+#local-footer,
+#horario-footer{
+    text-align: center;
+    color: var(--body-colo);
+}
+
+#local-footer > h3 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#local-footer > p {
+    margin-bottom: 5px;
+}
+
+#link {
+    padding: 10px;
+    background-color: var(--body-colo);
+    margin: 10px auto;
+    width: 100px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+#link:hover{
+    opacity: 0.8;
+}
+
+#link > a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+#horario-footer > h3 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#negociacao{
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+#contato-footer {
+    text-align: center;
+    color: var(--body-colo);
+}
+
+#contato-footer > h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#contato-footer > p {
+    margin-top: 20px;
+
+}
+
+#contato-footer > p > a {
+    text-decoration: none;
+    color: var(--body-colo);
+    margin-right: 10px;
+
 }
