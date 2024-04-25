@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nayane Mendoça Estética</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body>
+<body onresize="novoTamanho()">
     <header>
         <div id="header-options">
-            <img src="imagens/logo.png" alt="logo">
+            <img src="imagens/logo.png" alt="logo" id="banner">
             <h1>
                 NAYANE MENDONÇA
                 <p>E S T É T I C A</p>
             </h1>
+            <span class="material-symbols-outlined" onclick="exibirMenu()">
+                menu
+            </span>
             <ul id="ul-options">
                 <li><a href="#">INÍCIO</a></li>
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">PROCEDIMENTOS</a></li>
-                <li><a href="#">DEPILAÇÃO</a></li>
-                <li><a href="#">CONTATO</a></li>
+                <li><a href="#About-me">SOBRE</a></li>
+                <li><a href="#my-specialty">PROCEDIMENTOS</a></li>
+                <li><a href="#my-removal">DEPILAÇÃO</a></li>
+                <li><a href="#contato">CONTATO</a></li>
             </ul>
         </div>
     </header>
@@ -31,13 +36,21 @@
                     <img src="imagens/sobremim2.png" alt="">
                 </div>
                 <div id="text">
-        
+                    <p>
+                        Estudante do último período de Estética e Cosmético na <strong>Universidade Tiradentes (Unit)</strong>.
+                    </p> <br>
+                    <p>
+                        Especializada em depilação à laser, dando um início a pós graduação em injetáveis na <strong>FACOP</strong>.
+                    </p><br>
+                    <p>
+                        Amo buscar conhecimento e todos os avanços tecnológicos na minha profissão
+                    </p>
                 </div>
         </section>
         <div id="agende">
             <h1>
                 AGENDE JÁ SEU HORÁRIO!
-                <a href="">CLICK AQUI!</a>
+                <a href="https://api.whatsapp.com/send?phone=5579999751210">CLICK AQUI!</a>
             </h1>
         </div>
         <section id="my-specialty">
@@ -129,7 +142,7 @@
         <div id="agende">
             <h1>
                 AGENDE JÁ SEU HORÁRIO!
-                <a href="">CLICK AQUI!</a>
+                <a href="https://api.whatsapp.com/send?phone=5579999751210">CLICK AQUI!</a>
             </h1>
         </div>
         <section id="my-removal">
@@ -184,6 +197,13 @@
                         A depilação de meias pernas com cera é um procedimento comum para remover os pelos indesejados da metade inferior das pernas, geralmente da linha do joelho para baixo.
                     </p>
                 </div>
+                <div id="laser" class="remove">
+                    <img src="imagens/laser.jpg" alt="depilação">
+                    <h3>Laser</h3>
+                    <br>
+                    <p class="explanation">
+                        A depilação a laser é um método popular para a remoção de pelos indesejados, oferecendo resultados mais duradouros em comparação com métodos tradicionais, como cera ou lâmina.
+                    </p>
             </div>
         </section>
     </main>
@@ -233,7 +253,8 @@
 
     </footer>
                 
-            </body>
-            </html>
-        </div>
+ </body>
+ scr
+</html>
+
         

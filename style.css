@@ -30,6 +30,10 @@ header {
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.226);
 }
 
+span{
+    display: none;
+}
+
 #header-options {
     position: fixed;
     display: flex;
@@ -103,6 +107,12 @@ h2 {
 #img-mim {
     margin-top: 50px;
     
+}
+
+#text{
+    margin-top: 150px;
+    width: 250px;
+    margin-left: 100px;
 }
 
 #Container-specialty{
