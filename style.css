@@ -30,10 +30,6 @@ header {
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.226);
 }
 
-span{
-    display: none;
-}
-
 #header-options {
     position: fixed;
     display: flex;
@@ -57,9 +53,7 @@ h1 > p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#ul-options {
-    display: flex;
-    justify-content: right;
+#ulOptions {
     margin-left: 200px;
     margin-right: 150px;
     margin-top: 20px;
@@ -67,17 +61,17 @@ h1 > p {
     font-size: 0.8rem;
 }
 
-#ul-options > li {
+#ulOptions > li {
     display: inline-block;
     padding: 5px;
     margin-right: 10px;
 }
 
-#ul-options > li > a:hover{
+#ulOptions > li > a:hover{
     opacity: 0.8;
 }
 
-#ul-options > li > a {
+#ulOptions > li > a {
     text-decoration: none;
     color: var(--font-color);
     opacity: 1;
