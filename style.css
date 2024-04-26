@@ -20,19 +20,9 @@ body {
     color: var(--font-color);
 }
 
-header {
-    background-image: url(imagens/banner-principal.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    width: 99vw;
-    height: 550px;
-    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.226);
-}
-
 #header-options {
-    position: fixed;
     display: flex;
+    position: fixed;
     justify-content: right;
     background-color: var(--header-color);
     width: 100vw;
@@ -49,13 +39,16 @@ h1 {
 
 h1 > p {
     font-size: 1rem;
-    text-align: center;
+    margin-left: 100px;
     font-family: 'Times New Roman', Times, serif;
+}
+#banner{
+    margin-left: 50px;
 }
 
 #ulOptions {
     margin-left: 200px;
-    margin-right: 150px;
+    margin-right: 100px;
     margin-top: 20px;
     width: 40vw;
     font-size: 0.8rem;
@@ -75,6 +68,15 @@ h1 > p {
     text-decoration: none;
     color: var(--font-color);
     opacity: 1;
+}
+
+#banner2 {
+    background-image: url(imagens/Venha\ para\ a\ melhor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 600px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.226);
 }
 
 #cotainer-me {
