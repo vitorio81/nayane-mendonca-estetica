@@ -9,28 +9,32 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-    <header id="header-options">
+    <header>
         <img src="imagens/logo.png" alt="logo" id="banner">
         <h1>
             NAYANE MENDONÇA
             <p>E S T É T I C A</p>
         </h1>
+
         <span id="burguer" class="material-symbols-outlined" onclick="exibirMenu()">
             menu
         </span>
-        <ul id="ulOptions">
-            <li><a href="#">INÍCIO</a></li>
-            <li><a href="#About-me">SOBRE</a></li>
-            <li><a href="#my-specialty">PROCEDIMENTOS</a></li>
-            <li><a href="#my-removal">DEPILAÇÃO</a></li>
-            <li><a href="#contato">CONTATO</a></li>
-        </ul>
     </header>
-    <section id="banner2">
+
+        <menu id="itens">
+            <ul>
+                <li><a href="#" onclick="esconderMenu()">INÍCIO</a></li>
+                <li><a href="#About-me" onclick="esconderMenu()">SOBRE</a></li>
+                <li><a href="#my-specialty" onclick="esconderMenu()">PROCEDIMENTOS</a></li>
+                <li><a href="#my-removal" onclick="esconderMenu()">DEPILAÇÃO</a></li>
+                <li><a href="#contato" onclick="esconderMenu()">CONTATO</a></li>
+            </ul>
+        </menu>
+    <section id="banner2" class="animacao">
         
     </section>
     <main>
-        <section id="About-me">
+        <section id="About-me" class="animacao">
             <h2>Sobre mim</h2>
             <div id="cotainer-me">
                 <div id="img-mim">
@@ -48,13 +52,13 @@
                     </p>
                 </div>
         </section>
-        <div id="agende">
+        <div id="agende" class="animacao">
             <h1>
                 AGENDE JÁ SEU HORÁRIO!
                 <a href="https://api.whatsapp.com/send?phone=5579999751210">CLICK AQUI!</a>
             </h1>
         </div>
-        <section id="my-specialty">
+        <section id="my-specialty" class="animacao">
             <h2>Procedimentos</h2>
             <div id="Container-specialty">
                 <div id="sobrancelha" class="specialty">
@@ -140,13 +144,13 @@
                 </div>
             </div>
         </section>
-        <div id="agende">
+        <div id="agende" class="animacao">
             <h1>
                 AGENDE JÁ SEU HORÁRIO!
                 <a href="https://api.whatsapp.com/send?phone=5579999751210">CLICK AQUI!</a>
             </h1>
         </div>
-        <section id="my-removal">
+        <section id="my-removal" class="animacao">
             <h2>Depilação</h2>
             <div id="container-removal">
                 <div id="axila" class="remove">
@@ -209,7 +213,7 @@
         </section>
     </main>
         
-    <footer id="contato">
+    <footer id="contato" class="animacao">
         <h2>
             Agende já seu horário
         </h2>
@@ -255,7 +259,7 @@
     </footer>
                 
  </body>
- scr
+ <script src="index.js"></script>
 </html>
 
         

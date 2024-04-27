@@ -1,296 +1,450 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 901px ) {
-    #header-options > #burguer {
-        display: none;
-    }
-
-    #ulOptions {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    #header-options > h1 {
-        width: 40vw;
-        font-size: 2rem;
-    }
-
-    #header-options > h1 > p {
-        margin-right: 100px;
-    }
-
-    #my-specialty {
-        height: 1850px;
-    
-    }
-
-    #my-removal{
-        height: 1400px;
-    }
-    
-    #contato{
-        margin-top: 100px;
-    }
-}
-
-@media screen and (min-width: 577px ) and (max-width: 900px ){
-    header {
-        width: 100vw;
-    }
-
-    #header-options > #burguer {
-        display: block;
-        margin-right: 50px;
-        margin-top: 20px;
-    }
-
-    #header-options > #burguer:hover #burguer{
-        cursor: pointer;
-        transform: scale(1.25,1.25);
-        display: block;
-    }
-
-    #ulOptions{
-        display: none;
+@media screen and (min-width: 460px ) and (max-width: 570px ){
+    header{
         position: fixed;
-        width: 100vw;
-        height: 100vh;
-        margin-top: 73px;
-        margin-right: 0px;
-        background-color: rgba(255, 255, 255, 0.577);
-        color: rgb(71, 29, 65);
-        margin-left: 50px;
-        margin-right: 50px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    header > img{
+        margin-left: 20px;
     }
 
-    #ulOptions > li {
-        display: block;
-        border: 1px solid;
-        width: 50vw;
-        padding: 20px;
-        margin: 20px auto;
-        border-radius: 10px;
-    }
-
-    #ulOptions > li:hover{
-        background-color: rgb(71, 29, 65);
-    }
-
-    #ulOptions > li > a:hover{
-        color: white;
-    }
-
-    #ulOptions> li > a {
-        display: block;
-        color: rgb(71, 29, 65);
-        width: max-content;
-        margin: auto;
+    header > h1{
         font-size: 1.5rem;
-
-    }
-
-
-    #header-options > h1 {
-        width: 40vw;
-        font-size: 1.5rem;
-        margin-right: 200px;
-    }
-    #header-options > h1 > p{
-       margin-right: 90px;
-    }
-
-    #text{
-        margin-top: 150px;
-        width: 350px;
-        margin-left: 40px;
-    }
-
-    #my-specialty {
-        height: 1850px;
-    
-    }
-
-    #my-removal{
-        height: 1400px;
-    }
-    
-    #contato{
-        margin-top: 100px;
-        height: 600px;
-    }
-}
-
-
-@media ( max-width: 576px){
-
-    #header-options > #burguer {
-        display: block;
-        margin-right: 30px;
-        margin-top: 20px;
-    }
-
-    #header-options > #burguer:hover #ulOptions{
-        cursor: pointer;
-        transform: scale(1.25,1.25);
-        display: block;
-    }
-    
-
-    #header-options > h1 {
-        margin: 0px;
-        text-align: center;
-        width: 300px;
         margin-top: 10px;
-        font-size: 1.5rem;
-
     }
 
+    header > h1 > p {
+        font-size: 1rem;
+    }
 
-    #header-options > #ulOptions{
+    header > #burguer{
+        display: block;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    header > #burguer:hover{
+        cursor: pointer;
+        transform: scale(1.25,1.25);
+    }
+
+    menu#itens{
         display: none;
         position: fixed;
-        width: 100vw;
+        background-color: rgba(255, 255, 255, 0.693);
+        z-index: 9999;
+        margin-top: 71px;
         height: 100vh;
-        margin-top: 73px;
+        width: 50vw;
         margin-right: 0px;
-        background-color: rgba(255, 255, 255, 0.577);
-        color: rgb(71, 29, 65);
+    }
+
+    #itens > ul > li {
+        display: block;
+        border: 1px solid rgb(71, 29, 65);
+        width: 25vw;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 10px;
+        
     }
     
-
-    #ulOptions> li {
+    #itens > ul > li > a{
         display: block;
-        border: 1px solid;
-        width: 50vw;
-        padding: 20px;
-        margin: 20px auto;
-        border-radius: 10px;
-    }
-
-    #ulOptions > li:hover{
-        background-color: rgb(71, 29, 65);
-    }
-
-    #ulOptions > li > a:hover{
-        color: white;
-    }
-
-    #ulOptions > li > a {
-        display: block;
+        text-decoration: none;
         color: rgb(71, 29, 65);
-        width: max-content;
-        margin: auto;
-        font-size: 1.5rem;
+        width: 25vw;
+        text-align: center;
+        font-weight: bold;
+    }
 
+    #itens > ul > li:hover{
+        background-color: rgb(71, 29, 65);
+        border: 1px solid white;
+    }
+
+    #itens > ul > li > a:hover{
+        color: white ;
+    }
+
+    #banner2{
+        background-image: url(imagens/1.png);
+        height: 211px;
+        margin-top: 70px;
+        z-index: 0
+    }
+
+    #cotainer-me {
+        display: flex;
+        flex-direction: column;
     }
 
     #About-me{
-        width: 80vw;
+        height: 900px;
+    }
+
+    #text{
+        margin-top: 100px;
+        width: 50vw;
+        margin-left: 0px;
+    }
+
+    #agende {
+        height: 50px;
+    }
+
+    #agende > h1 {
+        margin-top: 15px;
+        font-size: 1.1rem;
+    }
+    
+    #agende > h1 > a {
+        text-decoration: none;
+        background-color: var(--body-colo);
+        padding: 10px;
+        border-radius: 10px;
+        color: var(--font-color);
+        margin-left: 20px;
+        opacity: 1;
+
     }
 
     #Container-specialty{
-        height: 2230px;
-    }
-    #my-specialty{
-        height: 2230px;
-    }
-
-    #agende > h1{
-        font-size: 1.5rem;
-    }
-
-    #agende > h1 > a {
-        font-size: 1rem;
-        padding: 15px;
-    }
-
+        width: 60vw;
+        height: 4500px;
     
+    }
+    
+    #my-specialty {
+        width: 60vw;
+        height: 4500px;
+    }
+
+    .specialty {
+        margin-right: 0px;
+    }
+
     #my-removal{
-        height: 1850px;
+        width: 60vw;
+        height: 3100px;
+    }
+    
+    #container-removal{
+        width: 60vw;
+        height:3100px;
+    }
+
+    .remove {
+        margin-right: 0px;
+    }
+
+    #container-information{
+        display: flex;
+        flex-direction: column;
     }
 
     #contato{
-        margin-top: 100px;
+        width: 99vw;
         height: 850px;
+        margin-top: 200px;
     }
-
 }
 
-
-@media ( max-width: 568px){
-
-    #header-options > #burguer {
-        display: block;
-        margin-right: 30px;
-        margin-top: 20px;
-    }
-
-    #header-options > #burguer:hover #ulOptions{
-        cursor: pointer;
-        transform: scale(1.25,1.25);
-        display: block;
-    }
-
-    #ulOptions {
-        display: none ;
+@media screen and (min-width: 571px) and (max-width: 768px ){
+    header{
         position: fixed;
-        width: 100vw;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    menu#itens{
+        display: none;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.693);
+        z-index: 9999;
+        margin-top: 71px;
         height: 100vh;
-        margin-top: 73px;
-        margin-right: 0px;
-        background-color: rgba(255, 255, 255, 0.577);
-        color: rgb(71, 29, 65);
-    }
-
-
-    #ulOptions > li {
-        display: block;
-        border: 1px solid;
         width: 50vw;
-        padding: 20px;
-        margin: 20px auto;
-        border-radius: 10px;
+        margin-right: 0px;
     }
 
-    #ulOptions > li:hover{
-        background-color: rgb(71, 29, 65);
-    }
-
-    #ulOptions > li > a:hover{
-        color: white;
-    }
-
-    #ulOptions > li > a {
+    #itens > ul > li {
         display: block;
-        color: rgb(71, 29, 65);
-        width: max-content;
-        margin: auto;
-        font-size: 1.5rem;
-
+        border: 1px solid rgb(71, 29, 65);
+        width: 25vw;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 10px;
+        
     }
     
-    #header-options > h1 {
-        margin: 0px;
+    #itens > ul > li > a{
+        display: block;
+        text-decoration: none;
+        color: rgb(71, 29, 65);
+        width: 25vw;
         text-align: center;
-        width: 300px;
-        margin-top: 10px;
-        font-size: 1.5rem;
-
+        font-weight: bold;
     }
 
-    #text {
+    #itens > ul > li:hover{
+        background-color: rgb(71, 29, 65);
+        border: 1px solid white;
+    }
+
+    #itens > ul > li > a:hover{
+        color: white ;
+    }
+
+
+    #cotainer-me {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header > #burguer{
+        display: block;
+        position: fixed;
+        right: 0;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    header > #burguer:hover{
+        cursor: pointer;
+        transform: scale(1.25,1.25);
+    }
+
+    #banner2{
+        background-image: url(imagens/Venha\ para\ a\ melhor571.png);
+        height: 262px;
+        margin-top: 70px;
+        z-index: 0
+    }
+
+
+    #About-me{
+        height: 900px;
+    }
+
+    #text{
         margin-top: 100px;
+        width: 50vw;
+        margin-left: 0px;
+    }
+
+    #agende {
+        height: 60px;
+    }
+
+    #agende > h1 {
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
+    
+    #agende > h1 > a {
+        text-decoration: none;
+        background-color: var(--body-colo);
+        padding: 10px;
+        border-radius: 10px;
+        color: var(--font-color);
+        margin-left: 20px;
+        opacity: 1;
+
     }
 
     #Container-specialty{
-        height: 4500px;
+        width: 98vw;
+        height: 2350px;
+    
+    }
+    
+    #my-specialty {
+        width: 98vw;
+        height: 2400px;
+    }
+    
+    #my-removal{
+        width: 98vw;
+        height: 2000px;
+    }
+    
+    #container-removal{
+        width: 98vw;
+        height:2000px;
     }
 
-    #my-specialty{
-        height: 4500px;
+    #container-information{
+        display: flex;
+        flex-direction: column;
     }
 
-     #my-removal{
-        height: 3200px;
-        border: 1px solid;
+    #contato{
+        width: 99vw;
+        height: 850px;
+        margin-top: 150px;
     }
 }
+
+@media screen and (min-width: 770px) and (max-width: 991px ){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    menu#itens{
+        display: none;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.693);
+        z-index: 9999;
+        margin-top: 71px;
+        height: 100vh;
+        width: 50vw;
+        margin-right: 0px;
+    }
+
+    #itens > ul > li {
+        display: block;
+        border: 1px solid rgb(71, 29, 65);
+        width: 25vw;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 10px;
+        
+    }
+    
+    #itens > ul > li > a{
+        display: block;
+        text-decoration: none;
+        color: rgb(71, 29, 65);
+        width: 25vw;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #itens > ul > li:hover{
+        background-color: rgb(71, 29, 65);
+        border: 1px solid white;
+    }
+
+    #itens > ul > li > a:hover{
+        color: white ;
+    }
+
+
+    header > #burguer{
+        display: block;
+        position: fixed;
+        right: 0;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    header > #burguer:hover{
+        cursor: pointer;
+        transform: scale(1.25,1.25);
+    }
+
+    header > img {
+        margin-left: 100px;
+    }
+    
+    #banner2{
+        background-image: url(imagens/Venha\ para\ a\ melhor770.png);
+        height: 353px;
+        margin-top: 70px;
+        z-index: 0
+    }
+    
+    #About-me{
+        width: 70vw;
+    }
+
+    
+    #Container-specialty{
+        width: 98vw;
+        height: 2350px;
+    
+    }
+    
+    #my-specialty {
+        width: 98vw;
+        height: 2400px;
+    }
+    
+    #my-removal{
+        width: 98vw;
+        height: 2000px;
+    }
+    
+    #container-removal{
+        width: 98vw;
+        height:2000px;
+    }
+
+    #container-information{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contato{
+        width: 99vw;
+        height: 850px;
+        margin-top: 150px;
+    }
+}
+
+    @media screen and (min-width: 992px) and ((max-width: 1000px)) {
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        header > img {
+            margin-left: 20px;
+        }
+
+        #banner2{
+            background-image: url(imagens/Venha\ para\ a\ melhor992.png);
+            height: 455px;
+            margin-top: 70px;
+             z-index: 0
+        }
+
+        #Container-specialty{
+            width: 98vw;
+            height: 2000px;
+        
+        }
+        
+        #my-specialty {
+            width: 98vw;
+            height: 2050px;
+        }
+
+        #my-removal{
+            width: 98vw;
+            height: 1400px;
+        }
+        
+        #container-removal{
+            width: 98vw;
+            height: 1400px;
+        }
+
+        #contato{
+            margin-top: 200px;
+        }
+    }
