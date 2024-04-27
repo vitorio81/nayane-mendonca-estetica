@@ -71,9 +71,9 @@
         color: white ;
     }
 
-    #banner2{
-        background-image: url(imagens/1.png);
-        height: 211px;
+
+    #banner2 > a > img {
+        width: 100vw;
         margin-top: 70px;
         z-index: 0
     }
@@ -221,13 +221,11 @@
         transform: scale(1.25,1.25);
     }
 
-    #banner2{
-        background-image: url(imagens/Venha\ para\ a\ melhor571.png);
-        height: 262px;
+    #banner2 > a > img {
+        width: 100vw;
         margin-top: 70px;
         z-index: 0
     }
-
 
     #About-me{
         height: 900px;
@@ -358,9 +356,8 @@
         margin-left: 100px;
     }
     
-    #banner2{
-        background-image: url(imagens/Venha\ para\ a\ melhor770.png);
-        height: 353px;
+    #banner2 > a > img {
+        width: 100vw;
         margin-top: 70px;
         z-index: 0
     }
@@ -416,11 +413,10 @@
             margin-left: 20px;
         }
 
-        #banner2{
-            background-image: url(imagens/Venha\ para\ a\ melhor992.png);
-            height: 455px;
+        #banner2 > a > img {
+            width: 100vw;
             margin-top: 70px;
-             z-index: 0
+            z-index: 0
         }
 
         #Container-specialty{

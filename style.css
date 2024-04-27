@@ -88,12 +88,13 @@ header > #burguer:hover{
 }
 
 #banner2{
-    background-image: url(imagens/Venha\ para\ a\ melhor.png);
-    background-size: cover;
     width: 100vw;
-    height: 550px;
-    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.673);
 }
+
+#banner2 > a > img{
+    width: 100vw;
+}
+
 
 .animacao {
     opacity: 0;
