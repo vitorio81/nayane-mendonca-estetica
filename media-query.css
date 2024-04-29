@@ -133,6 +133,7 @@
 
     .specialty {
         margin-right: 0px;
+        height: 420px;
     }
 
     #my-removal{
@@ -155,6 +156,7 @@
     }
 
     #contato{
+        display: block;
         width: 99vw;
         height: 850px;
         margin-top: 200px;
