@@ -9,15 +9,17 @@
         left: 0;
         width: 100%;
         z-index: 1000;
+    
     }
     header > img{
-        margin-left: 0px;
+        margin-left: 30px;
         width: 90px;
     }
 
     header > h1{
         font-size: 1rem;
         margin-top: 15px;
+        
     }
 
     header > h1 > p {
@@ -26,7 +28,7 @@
 
     header > #burguer{
         display: block;
-        margin-left: 20%;
+        margin-left: 15%;
         margin-top: 20px;
     }
 
