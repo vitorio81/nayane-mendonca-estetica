@@ -148,15 +148,16 @@
 
     .remove {
         margin-right: 0px;
+        height: 420px;
     }
 
     #container-information{
         display: flex;
         flex-direction: column;
+        z-index:1000;
     }
 
     #contato{
-        display: block;
         width: 99vw;
         height: 850px;
         margin-top: 200px;
